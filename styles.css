@@ -1,0 +1,63 @@
+/* Basic reset and font */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header styling */
+header {
+  background-color: #0077cc;
+  color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Section with buttons */
+section {
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin-right: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #0077cc;
+  color: white;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+/* Article styling */
+article {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+}
+
+/* Style for the dynamic box (optional override) */
+#dynamic-box {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
